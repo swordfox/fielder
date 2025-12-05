@@ -22,7 +22,7 @@
     "require": {
         "php": ">=8.0",
         "silverstripe/framework": "^6.0",
-        "silverstripe/admin": "^2.0",
+        "silverstripe/admin": "^3.0",
         "goldfinch/illuminate": "^2.0"
     },
     "autoload": {
