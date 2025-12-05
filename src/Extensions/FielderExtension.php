@@ -2,12 +2,12 @@
 
 namespace Goldfinch\Fielder\Extensions;
 
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\CompositeValidator;
 use Goldfinch\Fielder\Forms\FielderValidator;
 use Goldfinch\Fielder\Forms\FielderRequiredValidator;
 
-class FielderExtension extends DataExtension
+class FielderExtension extends Extension
 {
     protected $fieldsWithFielder = [];
 
